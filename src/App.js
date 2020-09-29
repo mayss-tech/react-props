@@ -1,18 +1,11 @@
 import React from 'react';
 import Statut from './profil/profil';
 import Handelname from './profil/handelname';
-import PropTypes from 'prop-types';
-
-function ReactComponent() {}
-ReactComponent.propTypes = {
-  stringProp: PropTypes.string,
-  functionProp: PropTypes.func
-};
 
 function App() {
   return (
     <div style={{border:'solid 2px brown',maxWidth:'25vw', textAlign:'center',marginLeft:'37vw',marginTop:'5vw'}} >
-    <Statut  name='Mayssa LOUATI'/>
+    <Statut name='Mayssa LOUATI'/>
     <Statut bio=' Engineer in Hoticultural Systems Engineering Field : Environment and waste 
     recycling Responsible of "biogas project"  '/> 
     <Statut bio='Consultant at Oriflame Cosmetics Sweden'/>

@@ -1,10 +1,13 @@
 import React from 'react';
 
 
-function Handelname(){
+
+function Handelname(e){
+const  btnSubmit=()=>{
         alert("Mayssa LOUATI")
+    }
     return(
-        <button onClick={Handelname}>
+        <button onClick={btnSubmit}>
         Click me 
     </button>
     )
